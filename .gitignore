@@ -1,0 +1,40 @@
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Data and large files (keep directory structure via .gitkeep)
+data/train/*
+!data/train/.gitkeep
+data/val/*
+!data/val/.gitkeep
+
+# Checkpoints (large binary weights)
+checkpoints/*.pth
+!checkpoints/.gitkeep
+
+# User uploads and outputs
+static/uploads/*
+!static/uploads/.gitkeep
+static/outputs/*
+!static/outputs/.gitkeep
+
+# Results and figures
+results/*.png
+results/*.json
+!results/.gitkeep
+
+# Testing and IDE
+.pytest_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+*.swp
+*.swo
