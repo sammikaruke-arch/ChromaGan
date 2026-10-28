@@ -1,4 +1,4 @@
-# ChromaGAN: Black and White to Color Image Conversion Using GAN
+# ColorBloom: Black and White to Color Image Conversion Using GAN
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![PyTorch 2.x](https://img.shields.io/badge/PyTorch-2.x-ee4c2c.svg)](https://pytorch.org/)

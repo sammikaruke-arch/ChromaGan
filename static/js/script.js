@@ -1,5 +1,5 @@
 /**
- * ChromaGAN: Interactive Frontend Controller
+ * ChromaGan: Interactive Frontend Controller
  * Handles drag-and-drop, sample selection, asynchronous inference requests,
  * and the interactive before/after split slider.
  */

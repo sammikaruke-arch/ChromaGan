@@ -252,12 +252,5 @@ def download_image(filename):
         download_name=f"colorized_{safe_filename}",
     )
 
-
 if __name__ == "__main__":
-    print("\n" + "=" * 60)
-    print("STARTING COLORIZATION FLASK SERVER")
-    print("Serving on: http://127.0.0.1:5000")
-    print(f"Default Engine: {colorizer.default_model.upper()}")
-    print(f"Hardware Device: {colorizer.device.type.upper()}")
-    print("=" * 60 + "\n")
-    app.run(host="127.0.0.1", port=5000, debug=True)
+    app.run(debug=False, use_reloader=False)
